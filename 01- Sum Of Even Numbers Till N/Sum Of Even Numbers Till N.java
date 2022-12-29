@@ -1,3 +1,8 @@
+/*
+Problem statement:
+https://www.codingninjas.com/codestudio/guided-paths/basics-of-java/content/120302/offering/1459169
+*/
+
 import java.util.* ;
 import java.io.*; 
 public class Solution {
