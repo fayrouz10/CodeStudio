@@ -1,6 +1,5 @@
 /*
 Problem statement: https://www.codingninjas.com/codestudio/guided-paths/basics-of-java/content/120302/offering/1459173
-my solution is correct but time limit is exceeded
 */
 	 public static int fibonacciNumber(int n){
         int num1 = 0, num2 = 1, num3;
@@ -18,3 +17,11 @@ my solution is correct but time limit is exceeded
         return num2%1000000007;
     }
 	 
+/*
+//another solution. 
+public static int fibonacciNumber(int n){
+        if (n <= 1)
+            return n;
+        return fibonacciNumber(n - 1) + fibonacciNumber(n - 2);
+        }
+*/
