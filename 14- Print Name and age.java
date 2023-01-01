@@ -30,9 +30,8 @@ class Person {
 			this.age = age;
 			System.out.println("The name of the person is "+name+" and the age is "+age+".");
 		}
-	
-	
 }
+
 
 public class Solution {
 	
@@ -41,8 +40,6 @@ public class Solution {
 		String name = scanner.nextLine();
 		int age = scanner.nextInt();
 		Person person = new Person(name, age);
-		
-		
-		
+	
 	}//main
 }//class
